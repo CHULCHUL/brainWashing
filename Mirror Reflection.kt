@@ -11,7 +11,8 @@ class Solution {
                 if (dp < dq) {
                     if (0 == dq % dp) {
                         if (0 == dq / dp % 2) 0 else 1
-                    } else 2
+                    }
+                    else 2
                 }
                 else if (0 == dq % 2) 0 else 2
             }
